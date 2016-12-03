@@ -1,0 +1,42 @@
+form a {
+	margin-left: 5px;
+}
+img {
+	width: 200px;
+}
+
+ul {
+	position: relative;
+}
+
+li {
+	display: flex !important;
+	justify-content: space-between;
+	align-items:center;
+	position: relative;
+}
+
+/* starting state of animation */
+.fade-enter{
+	right:100px;
+	transform: rotateX(90deg) rotateZ(90deg);
+	opacity: 0;
+
+}
+/* end state of animation */
+.fade-enter-active {
+  right:0;
+  transform: rotateX(0deg) rotateZ(0deg);
+  transition: .5s ease-in all;
+  opacity: 1;
+}
+.fade-leave {
+	right: 0px;
+	opacity: 1;
+}
+
+.fade-leave-active {
+	opacity: 0;
+	right:-100px;
+	transition: .5s ease-out all;
+}
