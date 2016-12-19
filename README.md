@@ -11,7 +11,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 	> git clone https://github.com/pankaj417/server-side-rendering.git
-	> cd ReduxSimpleStarter
+	> cd server-side-rendering
 	> npm install
 	> npm start
 ```
